@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/953.fe157302.chunk.js","mappings":"wIAIA,UAJkB,WAChB,OAAOA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,aACd,C","sources":["pages/PostsPage.jsx"],"sourcesContent":["const PostsPage = () => {\n  return <div>PostsPage</div>;\n};\n\nexport default PostsPage;\n"],"names":["_jsx","children"],"sourceRoot":""}
