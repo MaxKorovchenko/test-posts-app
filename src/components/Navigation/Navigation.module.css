@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  gap: 100px;
+  font-size: 30px;
+}
+
+.link {
+  color: white;
+
+  &:global(.active) {
+    color: red;
+  }
+
+  transition: transform 250ms ease-in-out;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.05);
+  }
+}
