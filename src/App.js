@@ -1,7 +1,7 @@
 export const App = () => {
   return (
     <div className="App">
-      <p>ukraine will win</p>
+      <p>ukraine will certainly win</p>
     </div>
   );
 };
