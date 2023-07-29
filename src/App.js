@@ -1,9 +1,7 @@
-function App() {
+export const App = () => {
   return (
     <div className="App">
-      <p>puken xuilo</p>
+      <p>ukraine will win</p>
     </div>
   );
-}
-
-export default App;
+};
