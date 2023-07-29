@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktest_posts_app=self.webpackChunktest_posts_app||[]).push([[520],{520:function(t,s,e){e.r(s);var n=e(184);s.default=function(){return(0,n.jsx)("div",{children:"NotFoundPage"})}}}]);
+//# sourceMappingURL=520.5f1a455a.chunk.js.map
