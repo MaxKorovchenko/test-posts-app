@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunktest_posts_app=self.webpackChunktest_posts_app||[]).push([[630],{630:function(s,t,e){e.r(t);var p=e(184);t.default=function(){return(0,p.jsx)("div",{children:"PostDetailsPage"})}}}]);
-//# sourceMappingURL=630.9ee21e16.chunk.js.map
