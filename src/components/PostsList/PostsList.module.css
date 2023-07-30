@@ -27,3 +27,28 @@
     box-shadow: 5px 5px 20px rgb(75, 71, 71), -2px -2px 10px rgb(90, 86, 86);
   }
 }
+
+.btn {
+  display: block;
+  margin: 30px auto;
+  padding: 12px 24px;
+
+  background-color: rgb(76, 123, 217);
+  color: white;
+
+  box-shadow: 2px 2px 7px 2px #908080;
+  border-radius: 10px;
+  border: none;
+
+  font-size: 18px;
+  line-height: 22px;
+
+  text-transform: uppercase;
+  cursor: pointer;
+
+  transition: box-shadow 250ms ease-in-out;
+
+  &:hover {
+    box-shadow: 5px 5px 20px rgb(224, 218, 218), -2px -2px 10px rgb(225, 218, 218);
+  }
+}
