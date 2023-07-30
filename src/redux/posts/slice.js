@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { fetchPosts } from "./operations";
+import { fetchAllPosts, fetchPost } from "./operations";
 
 const handlePending = (state) => {
   state.isLoading = true;
@@ -14,16 +14,25 @@ export const postsSlice = createSlice({
   name: "posts",
   initialState: {
     items: [],
+    post: {},
     isLoading: false,
     error: null,
   },
   extraReducers: (builder) => {
-    builder.addCase(fetchPosts.pending, handlePending);
-    builder.addCase(fetchPosts.rejected, handleRejected);
-    builder.addCase(fetchPosts.fulfilled, (state, action) => {
-      state.isLoading = false;
-      state.error = null;
-      state.items = action.payload;
-    });
+    builder
+      .addCase(fetchAllPosts.pending, handlePending)
+      .addCase(fetchAllPosts.rejected, handleRejected)
+      .addCase(fetchAllPosts.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.error = null;
+        state.items = action.payload;
+      })
+      .addCase(fetchPost.pending, handlePending)
+      .addCase(fetchPost.rejected, handleRejected)
+      .addCase(fetchPost.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.error = null;
+        state.post = action.payload;
+      });
   },
 });

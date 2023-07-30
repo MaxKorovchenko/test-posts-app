@@ -1,0 +1,35 @@
+.wrapper {
+  width: 50vw;
+  height: 70vh;
+  margin: 20px auto;
+  padding: 30px;
+
+  border: 4px double red;
+  border-radius: 20px;
+
+  background-color: rgb(44, 55, 136);
+}
+
+.user {
+  font-size: 50px;
+  color: brown;
+  margin-bottom: 20px;
+}
+
+.number {
+  font-size: 25px;
+  color: rgb(174, 14, 14);
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 50px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 25px;
+  letter-spacing: 0.1em;
+  color: aliceblue;
+}
