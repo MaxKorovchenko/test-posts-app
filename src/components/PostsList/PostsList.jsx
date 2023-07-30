@@ -10,7 +10,7 @@ import { useState } from "react";
 export const PostsList = () => {
   const [page, setPage] = useState(1);
 
-  const posts = useSelector(selectItems);
+  const posts = useSelector(selectItems) ?? [];
   const visiblePosts = posts.slice(0, page * 25);
 
   const isBtnHidden = page * 25 >= posts.length;

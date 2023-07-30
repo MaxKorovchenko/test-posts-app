@@ -9,7 +9,7 @@ export const fetchAllPosts = createAsyncThunk("posts/fetchAllPosts", async (_, {
 
     return data;
   } catch (e) {
-    rejectWithValue(e.message);
+    return rejectWithValue(e.message);
   }
 });
 
@@ -19,6 +19,6 @@ export const fetchPost = createAsyncThunk("posts/fetchPost", async (id, { reject
 
     return data;
   } catch (e) {
-    rejectWithValue(e.message);
+    return rejectWithValue(e.message);
   }
 });
