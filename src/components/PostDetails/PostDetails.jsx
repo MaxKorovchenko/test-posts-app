@@ -6,6 +6,7 @@ import styles from "./PostDetails.module.css";
 
 export const PostDetails = () => {
   const { userId, id, title, body } = useSelector(selectPost);
+
   return (
     <div className={styles.wrapper}>
       <h2 className={styles.user}>User: {userId}</h2>
