@@ -7,9 +7,9 @@
 .item {
   padding: 15px;
 
-  border: 2px solid blue;
+  border: 2px solid #0000ff;
   border-radius: 10px;
-  box-shadow: 3px 3px 5px grey;
+  box-shadow: 3px 3px 5px #808080;
 
   background-color: #8098c9;
 
@@ -23,7 +23,7 @@
 
   &:hover,
   &:focus {
-    box-shadow: 5px 5px 20px rgb(75, 71, 71), -2px -2px 10px rgb(90, 86, 86);
+    box-shadow: 5px 5px 20px #4b4747, -2px -2px 10px #5a5656;
   }
 }
 
@@ -32,8 +32,8 @@
   margin: 30px auto;
   padding: 12px 24px;
 
-  background-color: rgb(76, 123, 217);
-  color: white;
+  background-color: #4c7bd9;
+  color: #ffffff;
 
   box-shadow: 2px 2px 7px 2px #908080;
   border-radius: 10px;
@@ -48,7 +48,6 @@
   transition: box-shadow 250ms ease-in-out;
 
   &:hover {
-    box-shadow: 5px 5px 20px rgb(224, 218, 218),
-      -2px -2px 10px rgb(225, 218, 218);
+    box-shadow: 5px 5px 20px #e0dada, -2px -2px 10px #e1dada;
   }
 }

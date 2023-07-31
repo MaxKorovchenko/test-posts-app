@@ -4,9 +4,9 @@ import { useState } from 'react';
 
 import { PostsListItem } from '../PostsListItem/PostsListItem';
 import { selectItems } from '../../redux/posts/selectors';
+import { selectFilter } from '../../redux/filter/selectors';
 
 import styles from './PostsList.module.css';
-import { selectFilter } from '../../redux/filter/selectors';
 
 export const PostsList = () => {
   const [page, setPage] = useState(1);
