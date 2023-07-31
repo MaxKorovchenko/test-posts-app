@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktest_posts_app=self.webpackChunktest_posts_app||[]).push([[520],{4520:function(s,t,e){e.r(t);var r=e(184),n={textAlign:"center",fontSize:50,margin:50,color:"red",textShadow:"2px 2px 5px black"};t.default=function(){return(0,r.jsxs)("div",{style:n,children:["Wrong Address\ud83d\ude25",(0,r.jsx)("br",{}),(0,r.jsx)("br",{})," Click on Home or Posts"]})}}}]);
+//# sourceMappingURL=520.403e3a24.chunk.js.map
